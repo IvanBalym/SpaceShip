@@ -1,3 +1,7 @@
+body {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,117 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-container {
+  margin: 5px;
+  margin-top: 25px;
+  display: flex;
+}
+
+.tree {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+
+.stats {
+  display: flex;
+}
+
+.stats-plus, .stats-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-title-text {
+  width: 200px;
+  color: #4c6aff;
+  font-size: 19px;
+  margin: 1px;
+}
+
+.img-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #595c69;
+  padding: 2px;
+  margin: 5px;
+  position: relative;
+}
+
+.img-container img {
+  min-height: 100%;
+  min-width: 100%;
+  flex-shrink: 0;
+  height: 95px;
+  filter: invert(35%) sepia(12%) saturate(497%) hue-rotate(192deg) brightness(96%) contrast(86%);
+}
+
+.img-container.allowed {
+  border: solid 1px #4c6aff;
+}
+
+.img-container.allowed img {
+  filter: invert(32%) sepia(92%) saturate(2097%) hue-rotate(222deg) brightness(105%) contrast(101%);
+}
+
+.img-tooltip {
+  position: absolute;
+  display: none;
+  z-index: 10;
+  background: #fff;
+  padding: 3px;
+}
+
+.skill-container:hover .img-tooltip {
+  display: block;
+}
+
+
+.plus-button, .plus-button:focus {
+  font-size: 15px;
+  background: #4c6aff;
+  color: white;
+  outline: none;
+  border: none;
+  margin: 5px;
+}
+
+.plus-button:active {
+  background: #2f52fd;
+}
+
+.colored {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.colored.hidden {
+  display: none;
+}
+
+.colored-1, .colored-2, .colored-3 {
+  width: 33.33%;
+  align-self: flex-end;
+}
+
+.colored-1 {
+  background-color: rgba(230, 13, 13, 0.5);
+}
+
+.colored-2 {
+  background-color: rgba(13, 230, 31, 0.5);
+}
+
+.colored-3 {
+  background-color: rgba(216, 230, 13, 0.5);
 }
