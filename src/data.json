@@ -1,0 +1,224 @@
+{
+ "rocket": [
+    {
+      "name": "Autoaim",
+      "icon": "targeting.png",
+      "requirements": {
+        "atkSpeed": 10,
+        "damage": 15,
+        "hull": 12
+      }
+    },
+    {
+      "name": "Anti missile",
+      "icon": "anti-aircraft-gun.png",
+      "requirements": {
+        "atkSpeed": 11,
+        "damage": 35,
+        "hull": 32
+      }
+    },
+    {
+      "name": "AOE damage",
+      "icon": "spiky-explosion.png",
+      "requirements": {
+        "atkSpeed": 5,
+        "damage": 2,
+        "hull": 15
+      }
+    },
+    {
+      "name": "EMI debuff (slow, stun etc.)",
+      "icon": "lightning-frequency.png",
+      "requirements": {
+        "atkSpeed": 15,
+        "damage": 12,
+        "hull": 14
+      }
+    },
+    {
+      "name": "Fire DOT path",
+      "icon": "incoming-rocket.png",
+      "requirements": {
+        "atkSpeed": 11,
+        "damage": 15,
+        "hull": 17
+      }
+    },
+    {
+      "name": "Rocket PreLaunch",
+      "icon": "spiky-field.png",
+      "requirements": {
+        "atkSpeed": 4,
+        "damage": 7,
+        "hull": 2
+      }
+    },
+    {
+      "name": "Drone at the rocket (Mars attack)",
+      "icon": "ray-gun.png",
+      "requirements": {
+        "atkSpeed": 12,
+        "damage": 12,
+        "hull": 34
+      }
+    },
+    {
+      "name": "Crazy rocket",
+      "icon": "rocket-flight.png",
+      "requirements": {
+        "atkSpeed": 2,
+        "damage": 44,
+        "hull": 14
+      }
+    }
+  ],
+  "gun": [
+    {
+      "name": "Anti missile",
+      "icon": "anti-aircraft-gun.png",
+      "requirements": {
+        "atkSpeed": 2,
+        "damage": 2,
+        "hull": 14
+      }
+    },
+    {
+      "name": "Spread",
+      "icon": "striking-balls.png",
+      "requirements": {
+        "atkSpeed": 2,
+        "damage": 24,
+        "hull": 6
+      }
+    },
+    {
+      "name": "Penetration",
+      "icon": "hypersonic-bolt.png",
+      "requirements": {
+        "atkSpeed": 24,
+        "damage": 12,
+        "hull": 5
+      }
+    },
+    {
+      "name": "Canon",
+      "icon": "cannon.png",
+      "requirements": {
+        "atkSpeed": 2,
+        "damage": 34,
+        "hull": 4
+      }
+    },
+    {
+      "name": "Auto aim lowest HP",
+      "icon": "heart-stake.png",
+      "requirements": {
+        "atkSpeed": 34,
+        "damage": 3,
+        "hull": 2
+      }
+    },
+    {
+      "name": "Shotgun",
+      "icon": "cogsplosion.png",
+      "requirements": {
+        "atkSpeed": 4,
+        "damage": 40,
+        "hull": 14
+      }
+    },
+    {
+      "name": "SniperRifle",
+      "icon": "lamprey-mouth.png",
+      "requirements": {
+        "atkSpeed": 35,
+        "damage": 15,
+        "hull": 4
+      }
+    },
+    {
+      "name": "Rickocheit",
+      "icon": "laser-sparks.png",
+      "requirements": {
+        "atkSpeed": 12,
+        "damage": 12,
+        "hull": 12
+      }
+    }
+  ],
+  "lasier": [
+    {
+      "name": "Beam",
+      "icon": "sinusoidal-beam.png",
+      "requirements": {
+        "atkSpeed": 5,
+        "damage": 25,
+        "hull": 7
+      }
+    },
+    {
+      "name": "Lightning bolt",
+      "icon": "unstable-orb.png",
+      "requirements": {
+        "atkSpeed": 12,
+        "damage": 12,
+        "hull": 34
+      }
+    },
+    {
+      "name": "Wave",
+      "icon": "wave.png",
+      "requirements": {
+        "atkSpeed": 4,
+        "damage": 43,
+        "hull": 5
+      }
+    },
+    {
+      "name": "Shield",
+      "icon": "forward-field.png",
+      "requirements": {
+        "atkSpeed": 4,
+        "damage": 4,
+        "hull": 25
+      }
+    },
+    {
+      "name": "OneshotHEadShotOneKill",
+      "icon": "thunder-skull.png",
+      "requirements": {
+        "atkSpeed": 5,
+        "damage": 34,
+        "hull": 1
+      }
+    },
+    {
+      "name": "Blind",
+      "icon": "water-bolt.png",
+      "requirements": {
+        "atkSpeed": 20,
+        "damage": 1,
+        "hull": 5
+      }
+    },
+    {
+      "name": "DOT fire damage",
+      "icon": "extra-time.png",
+      "requirements": {
+        "atkSpeed": 5,
+        "damage": 5,
+        "hull": 25
+      }
+    },
+    {
+      "name": "Skaner",
+      "icon": "light-sabers.png",
+      "requirements": {
+        "atkSpeed": 6,
+        "damage": 6,
+        "hull": 25
+      }
+    }
+  ]
+}
