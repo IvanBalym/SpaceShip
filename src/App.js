@@ -56,7 +56,7 @@ function App() {
                       <div className="colored-3" style={{height: `${progress.hull}%`}}></div>
                     </div>
                   }
-                  <img src={process.env.PUBLIC_URL + "./icons/" + item.icon} alt={item.name} />
+                  <img src={process.env.PUBLIC_URL + "/icons/" + item.icon} alt={item.name} />
                 </div>
                 <div className="img-tooltip">{item.name}</div>
               </div>
